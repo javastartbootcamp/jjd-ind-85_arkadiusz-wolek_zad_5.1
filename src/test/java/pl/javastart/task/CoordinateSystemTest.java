@@ -74,7 +74,7 @@ class CoordinateSystemTest {
         coordinateSystem.run(scanner);
 
         // then
-        assertThat(outContent.toString()).contains("Punkt (5, -3) leży w VI ćwiartce układu współrzędnych");
+        assertThat(outContent.toString()).contains("Punkt (5, -3) leży w IV ćwiartce układu współrzędnych");
     }
 
     @Test
